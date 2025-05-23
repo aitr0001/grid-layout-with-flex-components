@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 0%;
+}
+
+.emojis {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+.emoji {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #080808;
+  border-radius: 8px;
+  height: 100%;
+  padding: 5px;
+}
+
+.emoji a{
+  display: block;
+  background-color: blueviolet;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: auto;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.emoji p{
+  flex-grow: 1;
+}
+
+.icon {
+  align-self: center;
+  margin-bottom: 1rem;
+  order: -1;
+  font-size: 4rem;
+  display: block;
+  text-align: center;
+}
+
+h2{
+   border-bottom: 2px solid #ccc;
+}
